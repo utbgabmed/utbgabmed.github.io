@@ -1,0 +1,205 @@
+body{
+    background-color: #F0F8FF;
+}
+
+.jssorb05 {
+            position: absolute;
+        }
+
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: url('img/b05.png') no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.jssorb05 div { 
+    background-position: -7px -7px; 
+}
+
+.jssorb05 div:hover, .jssorb05 .av:hover { 
+    background-position: -37px -7px; 
+}
+
+.jssorb05 .av { 
+    background-position: -67px -7px; 
+}
+
+.jssorb05 .dn, .jssorb05 .dn:hover { 
+    background-position: -97px -7px; 
+}
+
+.jssora12l, .jssora12r {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 46px;
+    cursor: pointer;
+    background: url('img/a12.png') no-repeat;
+    overflow: hidden;
+}
+
+.jssora12l { 
+    background-position: -16px -37px; 
+}
+
+.jssora12r { 
+    background-position: -75px -37px; 
+}
+
+.jssora12l:hover { 
+    background-position: -136px -37px; 
+}
+
+.jssora12r:hover { 
+    background-position: -195px -37px; 
+}
+
+.jssora12l.jssora12ldn { 
+    background-position: -256px -37px;
+}
+
+.jssora12r.jssora12rdn { 
+    background-position: -315px -37px; 
+}
+
+a{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #606060;
+    font-size: 150%;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 250%;
+    color: hotpink;
+    
+}
+
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+}
+
+#logga {
+    height: 100px;
+}
+
+div.tabell{
+    display: table;    
+}
+    
+div.tabellrad{
+    display: table-row;     
+}
+    
+div.tabell1{
+    display: table;    
+}
+    
+div.tabellrad1{
+    display: table-row;     
+}
+    
+
+section#logga1{
+    display: table-cell; 
+    text-align: justify;
+    width: 75px;
+}
+
+section#namn{
+    display: table-cell; 
+    text-align: center;
+    width: 100%;
+}
+
+section.vanster{
+    display: table-cell; 
+    text-align: center;
+    width: 50%;
+}
+
+section.hoger{
+    display: table-cell; 
+    text-align: center;
+    width: 50%;
+}
+
+#cssmenu {
+    outline: #BEBEBE solid thin;
+}
+
+header{
+    margin-top: 10px;
+}
+
+footer {
+    font-family:'Raleway', sans-serif;
+    color: #606060;
+    font-size: 100%;
+}
+
+#foot{
+    font-size: 70%;
+}
+
+#kontakt {
+    list-style-type: none;
+}
+
+#kon{
+    margin-left: 10%;
+}
+
+h4{
+    margin-left: 10%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 150%
+
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 200%
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+#transparent{
+    color: #F0F8FF;
+}
+
+#quest{
+    list-style-type: none;
+}
+
+@media only screen and (min-width : 150px) and (max-width : 768px)
+{
+    section.vanster {
+        float: left;
+        width: 100%;
+        text-align: left;
+        border-radius: 5px;
+        padding: 1%;
+        margin-left: 0%;
+        margin-right: 7%;
+    }
+    
+    section.hoger {
+        float: left;
+        width: 100%;
+        text-align: left;
+        border-radius: 5px;
+        padding: 1%;
+        margin-left: 0%;
+    }
+}
